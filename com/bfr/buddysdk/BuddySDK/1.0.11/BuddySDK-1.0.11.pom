@@ -7,4 +7,16 @@
   <version>1.0.11</version>
   <packaging>aar</packaging>
   <description>POM was created from install:install-file</description>
+
+  <dependencyManagement>
+     <dependencies>
+          <dependency>
+              <groupId>com.bfr.buddy.speech.shared</groupId>
+              <artifactId>sharedspeech</artifactId>
+              <version>0.0.1</version>
+              <type>aar</type>
+            </dependency>
+      </dependencies>
+  </dependencyManagement>
+
 </project>
